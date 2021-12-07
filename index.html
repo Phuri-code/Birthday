@@ -7,11 +7,13 @@
     <title>Countdown Birthday</title>
     <link rel="stylesheet" href="index.css">
     <script src="script.js" defer></script>
+    <script src="love.js" defer></script>
 </head>
 <body>
     <section class="header">
+        <div class="position">
         <div class="backG">
-    <h1> let's countdown your birthday</h1>
+    <h1>birthday</h1>
     <div class="countdown-container">
         <div class="countdown-el day-c">
         <p class="big-text" id="days">0</p>
@@ -28,20 +30,50 @@
         <div class="countdown-el second-c">
         <p class="big-text" id="seconds">0</p>
         <span>second</span>
-    </div>    
+    </div>   
+    </div> 
+ </div>
+ <!-- second countdown-container -->
+        <div class="backC">
+    <h4 style="text-transform: uppercase;margin-bottom: 15px;">anniversary 1 year</h4>
+    <div class="countdown-container">
+        <div class="countdown-el day-c">
+        <p class="big-text" id="day">0</p>
+        <span>days</span>
+    </div> 
+        <div class="countdown-el hours-c">
+        <p class="big-text" id="hour">0</p>
+        <span>hours</span>
+    </div> 
+        <div class="countdown-el mins-c">
+        <p class="big-text" id="min">0</p>
+        <span>mins</span>
+    </div> 
+        <div class="countdown-el second-c">
+        <p class="big-text" id="second">0</p>
+        <span>second</span>
+    </div>   
+    </div> 
  </div>
 </div>
+<img src="kitty.png" alt="kitty-pic" width="400" >
  </section>
+ <p>
+     <img src="mars.jpg" alt="picki" width="100" height="178">
+<img src="kiii.PNG" alt="picki ki" width="100" >
+</p>
+ 
+ <!-- BMI TEST -->
  <section class="BMI">
 <span></span>
     <form action="" method="post" id="MyForm">
         <div class="row">
         <span>
-            <label for="weight">weight</label><br><input class="basic-slide" type="number" id="weight" placeholder="0.00kg" >
+            <label for="weight">weight</label><br><input class="basic-slide" type="number" id="weight" placeholder="0.00kg" autocomplete="off">
         </span>
-           <span> <label for="height">height</label><br><input class="basic-slide" type="text" id="height" placeholder="0.00m" >
+           <span> <label for="height">height</label><br><input class="basic-slide" type="number" id="height" placeholder="0.00m" autocomplete="off">
         </span><br>
-           <span><label for="volume">your result BMI</label><br><input class="basic-slide" type="number" id="volume" placeholder="your result BMI" >
+           <span><label for="volume">your result BMI</label><br><output class="basic-slide" type="text" id="volume" placeholder="your result BMI" autocomplete="off">
         </span><br>
             <br><input type="submit" value="Calculate" id="submit" class="format-button"> </form>
             </span>

@@ -16,11 +16,16 @@ body{
     margin:0;
 
 }
+.position{
+  display: flex;
+}
 h1{
     font-weight: normal;
-    font-size: 3rem;
-    margin-top: -0.5rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: auto ;
     text-align: center;
+    text-transform: uppercase;
     /* color:rgb(0, 95, 158); */
 }
 .countdown-container{
@@ -47,13 +52,28 @@ h1{
     width: 100%;
     background-position: center;
     position: relative;
-    color: rgb(163, 90, 147);  
-    background-size: cover;     
-    background-image: url("pics.jpg")
+    color: rgb(0, 204, 255);  
+    background-color: #7ab893 ;
 }
-/* .backG{
-   background-image: url("pics.jpg")
-} */
+.backG{
+  left: auto;
+  right: auto;
+  width: 50%;
+  height: 50%;
+   background-color: #1a1818;
+   border: 5px solid;
+   /* border-radius: 5px; */
+}
+.backC{
+  left: auto;
+  right: auto;
+  width: 50%;
+  height: 50%;
+  color: #ffa4c9;
+   background-color: #1a181a;
+   border: 5px solid;
+   /* border-radius: 5px; */
+}
 
 /* BMI */
 @import "compass/css3";

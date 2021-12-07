@@ -29,6 +29,7 @@ function formatTime(time){
 countdown();
 
 setInterval(countdown, 1000);
+
 //test BIM
 
 function National_institutes_of_Healthy(weigth, height){
@@ -47,3 +48,5 @@ function National_institutes_of_Healthy(weigth, height){
     }
   }
  National_institutes_of_Healthy(51, 1.67);
+
+ 
